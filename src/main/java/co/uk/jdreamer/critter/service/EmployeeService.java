@@ -1,16 +1,13 @@
 package co.uk.jdreamer.critter.service;
 
-import co.uk.jdreamer.critter.dto.EmployeeDTO;
 import co.uk.jdreamer.critter.dto.EmployeeRequestDTO;
 import co.uk.jdreamer.critter.entity.Employee;
-import co.uk.jdreamer.critter.entity.EmployeeSkill;
 import co.uk.jdreamer.critter.exception.ResourceNotFoundException;
 import co.uk.jdreamer.critter.repository.EmployeeRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.DayOfWeek;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
